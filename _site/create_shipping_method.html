@@ -165,6 +165,7 @@
         <li><a href="api_order.html">Orders</a></li>
         <li><a href="api_invoice_shipment.html">Invoices & Shipments</a></li>
         <li><a href="api_cart.html">Shopping Cart</a></li>
+        <li><a href="api_checkout.html">Checkout</a></li>
       </ul>
     </li>
 
@@ -185,6 +186,16 @@
   </ul>
 </div>
 
+<script type="text/javascript">
+  $(".menu-heading  a").hover(
+    function() {
+      $(this).css("color", "#0031f0");
+    },
+    function() {
+      $(this).css("color", "#2c3145");
+    }
+  );
+</script>
 <!-- <script type="text/javascript">
   // menu heading as active
   var loc = window.location.pathname;
