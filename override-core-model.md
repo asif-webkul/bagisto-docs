@@ -16,7 +16,7 @@ Concord's concept also requires to have an interface **_Product_** and this way 
 
 The **registerModel()** method also silently binds the interface to the implementation with Laravel's service container so you can simply type hint the interface at any point where automatic injection happens.
 
-**Note** : _For more details check_ **_[Concord](https://github.com/artkonekt/concord)_** _on github or refer to its_ **_[Documentation](https://artkonekt.github.io/concord/#/)_**
+**Note** : _For more details check_ <a href="https://github.com/artkonekt/concord" target="_blank" class="bagsito-link"> Concord </a> _on github or refer to its_<a href="https://artkonekt.github.io/concord/#/" target="_blank" class="bagsito-link"> Documentation </a>
 
 Overriding Model class in application:
 
@@ -47,9 +47,9 @@ Concord modules generally defines interface for every eloquent model. If you wan
 
 In the code shown above, **registerModel()** method accepts two parameters described below
 
-- The first parameter states your Contracts path which you want to override
+- The first parameter states your Contracts path which you want to override.
 
-- And, the second parameter states the model path from where you will override the model
+- The second parameter states the model path from where you will override the model.
 
 The model from which you want to override must extends your model path as shown below
 
